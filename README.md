@@ -43,10 +43,11 @@ html, css, styled-componenet, scss, Javascript, CRA, React, react-hook
 ### Detail Page
 
 - UI 컴포넌트 및 레이아웃 구현
-- react-router를 이용한 page간 props로 전달된 인원수와 예약일수를 활용하여 숙박 일수 및 총금액 구현
+- react-router를 이용한 page간 props로 전달된 인원수와 예약일수를 활용하여 숙박이용 일수 및 총금액 구현
 - token 여부에 따른 서비스 제한 및 제공여부 구현
 - 디테일리스트에서 상세페이지로 넘어가는 동적라우팅 구현
 - 숙박 정보 axios API 통신
+- histoy.location.state를 사용하여 "체크인-체크아웃날짜/인원/숙박이용일수/1박금액/수수료/총금액/숙소정보(id,이름,이미지,룸타입,평점)"를 결제페이지로 전달
 
 ### My Page
 
